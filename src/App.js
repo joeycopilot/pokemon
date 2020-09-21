@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './App.scss';
-import Pokemon from './layouts/pokemon/pokemon'
+import Search from './layouts/search/search'
 
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Pokemon {...this.props} />
+        <Search {...this.props} />
       </div>
     );
   }

@@ -1,15 +1,13 @@
-$red: #ff0000;
 $white: #ffffff;
-$black: #1a1a1a;
-$grey: #5B5B5B;
-$gold: #B3A125;
-$light-gold: #FFDE00;
-$blue: #3B4CCA;
-$tan: #FCF3DD;
+$black: rgba(#1a1a1a, 0.9);
+$grey: #bfbfbf;
+$blue-grey: #ccd5d9;
+$blue: #59bfff;
+$red: #e62048;
 
 @mixin background-white { background: $white; }
-@mixin background-red { background: $red; }
-@mixin background-gold { background: $gold; }
-@mixin background-light-gold { background: $light-gold; }
+@mixin background-blue { background: $blue; }
+@mixin background-grey { background: $grey; }
 @mixin color-white { color: $white; }
+@mixin color-red { color: $red; }
 

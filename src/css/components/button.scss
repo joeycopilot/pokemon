@@ -1,13 +1,15 @@
 .button-container {
-  @include background-red;
+  @include background-blue;
   @include color-white;
   box-sizing: border-box;
   display: inline-block;
-  vertical-align: top;
-  width: 350px;
-  height: 48px;
+  height: 40px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 4px;
+
+  &.secondary {
+    @include background-grey;
+  }
 
   &[disabled] {
     cursor: default;
@@ -23,6 +25,7 @@
     display: table-cell;
     width: 100%;
     height: 100%;
+    padding: 0 20px;
     text-align: center;
     vertical-align: middle;
   }
